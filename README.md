@@ -56,7 +56,8 @@ Also, we specify few commands that runs before each job in the pipeline:<br>
 ### Step 6: Creating .gitlab-ci.yml
 Refer to .gitlab-ci.yml configuration provided in the repository.<br>
 Once terraform apply job is completed.<br>
-![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/079ebb57-e0c0-47d8-8089-fb10128faa6d) <br>
+![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/1562185f-1d8b-4f4b-ac66-e070ad608775) <br>
+
 
  -Go to aws console --> connect the instance and run the following commands in order to integrate with jenkins:<br>
   -cd /<br>
@@ -69,7 +70,7 @@ Once terraform apply job is completed.<br>
   -ls<br>
   -cat user-data.log (here, we ll find all the software that was required for installing jenkins along with jenkins has been  installed)<br>
   -Copy the public IP of the ec2 instance and append it with 8080 port and connect by providing the password.<br>
-  ![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/9e2852bb-06e5-4721-a8aa-8fce27d2cce8) <br>
+ ![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/89d924e4-4576-4eb4-8891-ef8798361fa3) <br>
   ![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/70327957-be58-44bd-a1be-8c7dfaee9e78) <br>
   ![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/409008f1-7383-4c1f-8d80-ec15eca407f0) <br>
   ![image](https://github.com/avilipsha99/gitlab-ansible-project/assets/114740673/0aac7941-bd11-4a46-8228-f77d1103cf38) <br>
